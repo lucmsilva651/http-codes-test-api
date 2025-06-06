@@ -1,0 +1,13 @@
+{
+  "name": "http-codes-test-api",
+  "private": true,
+  "version": "1",
+  "scripts": {
+    "start": "node src/api.js",
+    "dev": "nodemon --watch src --exec node src/api.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
